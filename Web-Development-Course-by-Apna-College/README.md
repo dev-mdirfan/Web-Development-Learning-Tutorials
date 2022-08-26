@@ -5,6 +5,7 @@
 * Basic Web Technologies (HTML, CSS, JS)
 * What is Frontend ?
 * What is Backend ?
+* Why we don't use Website Builder ?
 
 # FRONTEND :
 ## [Lecture-1](Lecture-1.md) : HTML (Structuring the Web)

@@ -47,8 +47,8 @@
 2. `<html>` root of an HTML page
 3. `<head>` Contains page metadata
 4. `<title> Harry's Website </title>` Contains Title
-5. `</head>`
-6. `<body>` The main body of the page (rendered by browser)
+5. `</head>` Closing head tag
+6. `<body>` The main body of the page (rendered by browser) and visible
 7. `<h1> This is a heading </h1>` Heading Tag
 8. `<p> My Paragraph </p>` Paragraph Tag
 9. `</body>` Closing Body Tag
@@ -57,6 +57,7 @@
 * A tag is like a container for either content or other HTML tags
 
     `HTML Document` + `Browser` = `Rendered Page`
+
 #### Dummy Text :
 * For crating Dummy Text - `lorem30` + `Enter`
 
@@ -86,5 +87,3 @@
 #### Practice Set :
 1. Inspect your favorite website and change something on the page which is displayed.
 2. Go to your favorite website and try to view the page source and write the exact lines of code. Does it clone the website? why?
-3. Write any HTML code inside a text file. Does it work  if you write it using notepad?
-
