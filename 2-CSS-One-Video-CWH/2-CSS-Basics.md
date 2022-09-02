@@ -1,0 +1,25 @@
+# CSS Basics
+* We will create our first CSS website in this section
+
+## What is DOM ?
+* DOM stands for `document object model` when a page is loaded, the browser creates a DOM of the page which is constructed as a tree of objects.
+
+## HTML id and class attributes :
+* When an HTML element is given an id, it serves as a unique identifier for that element.
+* On the other hand, when an HTML element is given a class, it now belongs to that class. More than one element can belong to a single class but every element must have a unique id (if assigned).
+
+* We can add multiple classes to an element like this
+
+      <div id="first" class="c1 c2 c3">
+      </div>
+    * Multiple classes followed by spaces in `class` attribute
+    * One class can have multiple class values.
+    * Multiple classes can have same class value.
+
+### Three ways to add CSS to HTML
+* There are 3 ways to add CSS to HTML
+
+1. `<style>` tag -> Adding `<style>...</style>` to HTML
+2. Inline CSS -> Adding CSS using style attribute
+3. External CSS -> Adding a stylesheet (.css) to HTML using `<link>` tag
+
