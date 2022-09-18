@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to CSS</title>
-
+    <link rel="stylesheet" href="2-style.css">
     <!-- Style tag in head tag -->
-    <style>
-        body {
-            background-color: aquamarine;
+    <!-- <style>
+        #first{
+            border-color: aqua;
         }
-
         .red {
             color: red;
         }
@@ -21,19 +20,33 @@
         .border-purple {
             border: purple;
         }
-
         #unique {
             border: palevioletred;
+        }
+    </style> -->
+
+    <!-- css selectors -->
+    <style>
+        h1{
+            color :red;
+        }
+        div#first{
+            color : white;
+        }
+        * {
+            margin : 10px;
+            padding : 10px;
         }
     </style>
 </head>
 <body>
-    <!-- This is example of using style tag -->
-    <div class="container">
+    <!-- This is example of using Inline style tag -->
+    <div class="container" style="background-color:aqua;">
         <h1>Introduction to CSS</h1>
     </div>
 
-    <div class="first red border-purple" id="unique">
+    <!-- Multiple class in one class attribute -->
+    <div class="first red" id="unique">
         Class : first red, id : unique
     </div>
 
@@ -42,8 +55,14 @@
     </div>
 
     <!-- This is example of style using link tag -->
-    
+    <section class="red">
+        red
+    </section>
 
-    
+    <section class="red bg-blue border-purple">
+        red bg-blue and border purple
+    </section>
+
+
 </body>
 </html>

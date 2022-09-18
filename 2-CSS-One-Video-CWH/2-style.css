@@ -1,0 +1,21 @@
+/* This is css selector
+body {
+    background-color: aquamarine;
+} */
+
+#first{
+    border-color: aqua;
+}
+.red {
+    color: red;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.border-purple {
+    border: purple;
+}
+
+#unique {
+    border: palevioletred;
+}

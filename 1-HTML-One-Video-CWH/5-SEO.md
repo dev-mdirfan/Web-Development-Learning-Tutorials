@@ -40,3 +40,10 @@
     * Minify or compress- [JS, CSS and HTML](https://developers.google.com/speed/docs/insights/MinifyResources)
     * New line or extra spaces takes large size file 
 9. Add `alt` text to images.
+
+
+
+
+##### two method is use in form tag
+- get : idempotent means first time request the server and then not get refreshed
+- post : it request again and and refreshe
